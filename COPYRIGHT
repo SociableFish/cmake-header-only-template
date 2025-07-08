@@ -1,0 +1,12 @@
+Copyright (c) 2022 yhirose
+Copyright (c) 2025 SociableFish
+
+This template is based on code written by yhirose for the GitHub repository
+https://github.com/yhirose/cpp-peglib. Modifications by SociableFish include:
+* Making the project use include as an include path instead of the project root
+* Removing the actual PEG parser library and leaving include/yourlib.h instead
+* Simplifying CMakeLists.txt to use only one option, YOURLIB_BUILD_TESTS
+* Simplifying test/CMakeLists.txt to use a single file, test.cpp
+
+Licensed under the MIT license.
+See the LICENSE file for details.
